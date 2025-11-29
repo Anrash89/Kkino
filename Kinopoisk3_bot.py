@@ -48,9 +48,9 @@ HEADERS_WEB = {
     "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.8",
 }
 
-KINOPOISK_SEARCH = "https://api.kinopoisk.dev/v1.4/movie/search"
-KINOPOISK_FILTER = "https://api.kinopoisk.dev/v1.4/movie"
-KINOPOISK_BY_ID  = "https://api.kinopoisk.dev/v1.4/movie/{id}"
+KINOPOISK_SEARCH = "https://api.poiskkino.dev/v1.4/movie/search"
+KINOPOISK_FILTER = "https://api.poiskkino.dev/v1.4/movie"
+KINOPOISK_BY_ID  = "https://api.poiskkino.dev/v1.4/movie/{id}"
 
 SSPOISK_FILM = "https://www.sspoisk.ru/film/{id}/"
 SSPOISK_SERIES = "https://www.sspoisk.ru/series/{id}/"
@@ -390,3 +390,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
